@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>點點小恐龍！</title>
+  <meta name="theme-color" content="#95d9c3" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700;800&family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="sky-decor cloud cloud-1"></div>
+  <div class="sky-decor cloud cloud-2"></div>
+  <div class="sky-decor star star-1"></div>
+  <div class="sky-decor star star-2"></div>
+
+  <main class="app">
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">可愛卡通點擊遊戲</p>
+        <h1>點點小恐龍！</h1>
+        <p class="subtitle">不停點擊，令蛋慢慢裂開、小恐龍孵化、進化，仲有機會觸發爆擊加成！</p>
+      </div>
+      <button id="soundToggle" class="sound-btn" type="button" aria-pressed="true">🔊 聲音：開</button>
+    </header>
+
+    <section class="hud">
+      <div class="card stat-card">
+        <span class="label">成長值</span>
+        <strong id="scoreValue">0</strong>
+      </div>
+      <div class="card stat-card">
+        <span class="label">目前階段</span>
+        <strong id="stageName">恐龍蛋</strong>
+      </div>
+      <div class="card stat-card crit-card">
+        <span class="label">爆擊機率</span>
+        <strong>10%</strong>
+      </div>
+    </section>
+
+    <section class="game-shell">
+      <div class="left-panel">
+        <div class="card progress-card">
+          <div class="progress-meta">
+            <span>距離下一次進化</span>
+            <strong id="progressText">0 / 20</strong>
+          </div>
+          <div class="progress-track" aria-hidden="true">
+            <div id="progressFill" class="progress-fill"></div>
+          </div>
+        </div>
+
+        <div class="card stage-card">
+          <p class="stage-title">現在狀態</p>
+          <h2 id="stageHeading">恐龍蛋</h2>
+          <p id="stageDescription" class="stage-description">一隻圓滾滾的蛋，已經開始有點震動了。</p>
+        </div>
+      </div>
+
+      <div class="arena-wrap">
+        <div class="arena" id="arena">
+          <div class="ground"></div>
+          <div id="effectBurst" class="effect-burst" aria-hidden="true"></div>
+          <button id="dinoButton" class="dino-button" type="button" aria-label="點擊恐龍">
+            <img id="dinoImage" src="assets/egg-0.svg" alt="可愛恐龍蛋" draggable="false" />
+          </button>
+          <div id="floatingLayer" class="floating-layer" aria-hidden="true"></div>
+          <div id="evolveBanner" class="evolve-banner" aria-live="polite"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bottom-row">
+      <div class="card tips-card">
+        <h3>玩法</h3>
+        <p>每點一下都會增加成長值，蛋會先慢慢裂開，再孵出小恐龍。當你夠好運時，會出現<strong>爆擊</strong>，一次加好多分！</p>
+      </div>
+      <div class="card milestones-card">
+        <h3>進化路線</h3>
+        <ol>
+          <li>恐龍蛋</li>
+          <li>小小恐龍</li>
+          <li>活力小恐龍</li>
+          <li>開心暴龍</li>
+          <li>皇冠恐龍王</li>
+        </ol>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
