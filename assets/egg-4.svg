@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img">
 <style>.outline{fill:none;stroke:#47685d;stroke-width:18;stroke-linecap:round;stroke-linejoin:round}.shell{fill:#fff6d8}.spot{fill:#ffd79d}.crack{fill:none;stroke:#47685d;stroke-width:13;stroke-linecap:round;stroke-linejoin:round}.crack.small{stroke-width:10}.open,.zig{fill:none;stroke:#47685d;stroke-width:16;stroke-linecap:round;stroke-linejoin:round}</style>
 <ellipse cx="300" cy="520" rx="160" ry="28" fill="#65b87b" opacity=".22"/>
-<g transform=" rotate(-3 300 300)">
+<g transform="">
 <path class="shell" d="M300 72 C405 72 492 246 462 383 C438 494 363 540 300 540 C237 540 162 494 138 383 C108 246 195 72 300 72Z"/>
 <path d="M300 72 C405 72 492 246 462 383 C438 494 363 540 300 540 C237 540 162 494 138 383 C108 246 195 72 300 72Z" class="outline"/>
 <circle class="spot" cx="234" cy="190" r="26" opacity=".65"/><circle class="spot" cx="376" cy="215" r="20" opacity=".55"/><circle class="spot" cx="315" cy="120" r="15" opacity=".45"/>
-<path d="M282 155 L258 195 L292 238" class="crack"/>
+<path d="M282 155 L258 195 L292 238" class="crack"/><path d="M338 170 L305 215 L328 258 L294 302" class="crack"/><path d="M220 225 L250 260 L220 302 L248 342" class="crack"/><path d="M382 250 L348 282 L380 320" class="crack"/><path d="M255 196 L226 178" class="crack small"/>
 </g>
 </svg>

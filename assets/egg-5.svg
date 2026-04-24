@@ -5,6 +5,6 @@
 <path class="shell" d="M300 72 C405 72 492 246 462 383 C438 494 363 540 300 540 C237 540 162 494 138 383 C108 246 195 72 300 72Z"/>
 <path d="M300 72 C405 72 492 246 462 383 C438 494 363 540 300 540 C237 540 162 494 138 383 C108 246 195 72 300 72Z" class="outline"/>
 <circle class="spot" cx="234" cy="190" r="26" opacity=".65"/><circle class="spot" cx="376" cy="215" r="20" opacity=".55"/><circle class="spot" cx="315" cy="120" r="15" opacity=".45"/>
-<path d="M282 155 L258 195 L292 238" class="crack"/>
+<path d="M282 155 L258 195 L292 238" class="crack"/><path d="M338 170 L305 215 L328 258 L294 302" class="crack"/><path d="M220 225 L250 260 L220 302 L248 342" class="crack"/><path d="M382 250 L348 282 L380 320" class="crack"/><path d="M255 196 L226 178" class="crack small"/><path d="M205 380 C270 420 345 418 420 372" class="open"/><path d="M232 378 L265 344 L296 385 L327 345 L360 384 L393 346" class="zig"/>
 </g>
 </svg>
